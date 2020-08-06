@@ -14,7 +14,7 @@ Utils.amazon = {
         return input && input.length == 10  && this.onlyASINRegex.test(input);
     },
     createCleanAffiliateURL: function(url, asin, tag) {
-        tag = tag || 'fromdevtools-20';
+        tag = tag || 'offer10p-21';
         return this.getCleanURL(url) + '?tag=' + tag;
     },
     getCleanURL : function(url, asin) {

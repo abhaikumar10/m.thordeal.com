@@ -44,7 +44,7 @@ h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #fff;}
+  color: #333;}
 
 a:hover
 { text-decoration: none;}
@@ -127,7 +127,7 @@ ol li
 { width: 877px;
   height: 72px;
   padding: 0;
-  background: #515D25 url(menu.png) repeat-x;} 
+  background: #3a6b9d url(menu.png) repeat-x;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -274,6 +274,7 @@ table tr td
   border-top: 1px solid #FFF;}
   
   .button {
+  border-radius: 15px;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -284,6 +285,13 @@ table tr td
   margin: 4px 2px;
   cursor: pointer;
 }
-
 .greenbutton {background-color: #4CAF50;} /* Green */
 .bluebutton {background-color: #336699;} /* Blue */
+
+button a
+{ color: #FFF;
+  text-decoration: none;}
+
+button a:hover
+{ color: #FFF;
+  text-decoration: underline;}

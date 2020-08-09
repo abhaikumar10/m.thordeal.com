@@ -44,7 +44,7 @@ h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #A4AA04;}
+  color: #fff;}
 
 a:hover
 { text-decoration: none;}
@@ -89,14 +89,14 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #667F03;
+{ background: #3A6B9D;
   height: 240px;}
 
 #logo
 { width: 825px;
   position: relative;
   height: 168px;
-  background: #667F03 url(logo.png) no-repeat;}
+  background: #3A6B9D url(logo.png) no-repeat;}
 
 #logo #logo_text 
 { position: absolute; 
@@ -116,7 +116,7 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #CDF63E;}
+{ color: #FBFBFB;}
 
 #logo_text h2
 { font-size: 100%;
@@ -152,7 +152,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: #373F1D url(menu_select.png) repeat-x;}
+  background: #034F7F url(menu_select.png) repeat-x;}
 
 #site_content
 { width: 837px;
@@ -160,7 +160,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
   background: #FFF url(content.png) repeat-y;} 
-
 
 #content
 { text-align: left;
@@ -183,9 +182,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
-  background: #29425E url(footer.png) repeat-x;
+  background: #254F5D url(footer.png) repeat-x;
   color: #FFF;
-  text-transform: uppercase;
+
   letter-spacing: 0.1em;}
 
 #footer a
@@ -229,13 +228,14 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   
 .form_settings .submit
 { font: 100% arial; 
+  border-radius: 15px;
   border: 1px solid; 
   width: 99px; 
   margin: 0 0 0 212px; 
   height: 33px;
   padding: 2px 0 3px 0;
   cursor: pointer; 
-  background: #5B7102; 
+  background: #3A6B9D; 
   color: #FFF;}
 
 .form_settings textarea, .form_settings select
@@ -272,3 +272,18 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  
+  .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.greenbutton {background-color: #4CAF50;} /* Green */
+.bluebutton {background-color: #336699;} /* Blue */

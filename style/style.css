@@ -127,7 +127,8 @@ ol li
 { width: 877px;
   height: 72px;
   padding: 0;
-  background: #3a6b9d url(menu.png) repeat-x;} 
+  background: #3a6b9d url(menu.png) repeat-x;
+}
 
 ul#menu, ul#menu li
 { float: left;
@@ -135,7 +136,8 @@ ul#menu, ul#menu li
   padding: 0;}
 
 ul#menu li
-{ list-style: none;}
+{ list-style: none;
+}
 
 ul#menu li a
 { letter-spacing: 0.1em;
@@ -153,6 +155,70 @@ ul#menu li a
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
   background: #034F7F url(menu_select.png) repeat-x;}
+
+
+/* Dropdown Button */
+.dropbtn {
+  letter-spacing: 0.1em;
+  background-color: inherit;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  float: center; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: yes; 
+  background-color: inherit;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  float: center; 
+ height: 37px;
+  padding: 2px 2px 33px 26px;
+}
+
+.dropdown:hover {
+	background-color: #183757;
+	padding: 2px 2px 33px 26px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  border-radius: 12px;
+  position: absolute;
+  background-color: #3A6B9D;
+  min-width: 160px;
+  box-shadow: 2px 8px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #183757;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+    padding: 0px 2px 13px 2px;
+	}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: White;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn 
+{
+	background-color: #inherit;
+}
+
+
 
 #site_content
 { width: 837px;
@@ -295,3 +361,5 @@ button a
 button a:hover
 { color: #FFF;
   text-decoration: underline;}
+  
+  

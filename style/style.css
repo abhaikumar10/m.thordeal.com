@@ -285,10 +285,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   text-align: left;}
   
 .form_settings input, .form_settings textarea
-{ padding: 5px; 
-  width: 299px; 
+{ padding: 7px; 
+  width: 499px; 
   font: 100% arial; 
-  border: 1px solid #E5E5DB; 
+  border-radius: 10px;
+  border: 2px solid #E5E5DB; 
   background: #FFF; 
   color: #47433F;}
   
@@ -306,10 +307,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .form_settings textarea, .form_settings select
 { font: 100% arial; 
-  width: 299px;}
+  width: 299px;
+  }
 
 .form_settings select
-{ width: 310px;}
+{ width: 310px;
+}
 
 .form_settings .checkbox
 { margin: 4px 0; 

@@ -33,14 +33,19 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="../">Home</a></li>
-          <li><div class="dropdown">
-		  <button class="dropbtn" class="selected">Latest Offers</button>
-		  <div class="dropdown-content">
-<a href="offers/topdeals.html">Top deals</a>
+     	  
+		  
+		 <li><div class="dropdown">
+    <button class="dropbtn" class="selected">Latest Offers</button>
+    <div class="dropdown-content">
+	  <a href="offers/topdeals.html">&nbsp;&nbsp;&nbsp;Top deals&nbsp;&nbsp;</a>
       <a href="offers/amazon.html">Amazon offers</a>
       <a href="offers/flipkart.html">Flipkart Offers</a>
       <a href="offers/others.html">Myntra & Others</a>
-	  </div></div></li>
+    </div>
+</div></li>
+		  
+		  
           <li class="selected"><a href="myspace.html">My Space</a></li>
           <li><a href="join.html">Registration link</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -53,40 +58,121 @@
       <div id="content">
         <!-- insert the page content here -->
         <h1>My Space</h1>
-        <p>Go.. and shop...</p>
-<Div>
-          <label for="country">Access my page</label>
-    <select id="country" name="country">
-	
-	     <option value=Prashant><a href="mypage/Prashnat_pkp10-21.html">Prashant</a><br></option>
-         <option value=Naresh> <a href="mypage/Naresh_nareshroy-21.html">Naresh</a><br></option>
-         <option value=Ashutosh> <a href="mypage/Ashu_ThorDeal1-21.html">Ashutosh</a><br></option>
-           </select>
+        <p>Go.. and shop...<a href="https://forms.gle/gyadeoD5EQPrLJLN8">Click here</a> to Claim Cashbacks!!<br>
+		Enter your thordeal code to access your account and reports. :)</p>
+<div>
+<style>
+.dropbtnn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtnn:hover, .dropbtnn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('style/search.png');
+  background-position: 8px 5px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: 1px;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #eee;}
+
+.dropdownn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownn-content {
+  display: block;
+  position: absolute;
+  padding: 14px 10px 12px 45px;
+  background-color: #f1f1f1;
+  min-width: 230px;
+  height: 80px;
+  overflow: auto;
+  scroll: none;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdownn-content a {
+  color: black;
+  background-color: #f9fbfb;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownn a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+
+     <div class="dropdownn">
+  <button onclick="myFunction()" class="dropbtnn">Access My Page</button>
+  <div id="myDropdown" class="dropdownn-content">
+    <input type="text" placeholder="Type Your Thordeal id" id="myInput" onkeyup="filterFunction()">
+	     <a href="mypage/Prashnat_pkp10-21.html">pkp10-21</a>
+         <a href="mypage/Naresh_nareshroy-21.html">nareshroy-21</a>
+         <a href="mypage/Ashu_ThorDeal1-21.html">ThorDeal1-21</a> 
         </div>		
+	</div>
+		
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+</div>
+
 		
 		
-		<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="offer10p-21"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="IN"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="550"; amzn_assoc_height ="610"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=IN"></script>
-         </div>
+		
 		 
 		 
 		 <br>
+		 <br><br>
+		 <br><br>
+		 <br><br> <br><br>
+		 <br><br> <br><br>
+		 <br><br>
+		 
 		
-    </center></div>
-		 <div id="content">
-      <div class="sidebar">
-	  
-        <!-- insert your sidebar items here -->
-        <ul><ol>
-        
-      </ol></ul>
-	  ]
-       
-      </div>
-    </div>
+    
+	<link rel="stylesheet" type="text/css" href="style/style.css" title="style" />	
     <div id="content_footer"></div>
     <div id="footer">
       Copyright &copy; ThorDeal | <a href="http://youtube.com/thordeal">Youtube</a> | <a href="http://fb.me/thordealofficial">Facebook</a> | <a href="https://t.me/thordeal">Telegram</a> | Email: contact@thordeal.com
     </div>
-  </div>
+  
 </body>
 </html>

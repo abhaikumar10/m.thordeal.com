@@ -215,7 +215,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn 
 {
-	background-color: #inherit;
+	background-color: #034F7F;
 }
 
 
